@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to right,#0f2027,#203a43,#2c5364);
+    font-family: 'poppins',sans-serif;
+}
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid gray;
+    background-color: whitesmoke; 
+  }
+  input:focus{
+    outline: 0;
+  }
+
+  #myForm{
+    width: 300px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    font-size: 20px;
+  }
+  #form h1{
+    color: #0f2027;
+    text-align: left;
+  }
+  #myForm button{
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: whitesmoke;
+    background-color: rgba(32, 32, 244, 0.573);
+    border: none;
+    border-radius: 4px;
+  }
+  #profile{
+    font-family: 'poppins',sans-serif;
+    width: 400px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    font-size: 20px;
+  }
+  #profile h1{
+    color: #0f2027;
+    text-align: left;
+  }
+  #profile button{
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: whitesmoke;
+    background-color: rgba(32, 32, 244, 0.573);
+    border: none;
+    border-radius: 4px;
+  }
+  #error{
+    color: red;
+    font-size: 14px;
+    display: none;
+  }
+  #correct{
+    color: green;
+    font-size: 14px;
+    display: none;
+  }
